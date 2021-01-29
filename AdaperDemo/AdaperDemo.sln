@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaperConsole", "AdaperConsole\AdaperConsole.csproj", "{06F6FC15-0CAC-4EC5-89CF-B21FE82D995D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F6FC15-0CAC-4EC5-89CF-B21FE82D995D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F6FC15-0CAC-4EC5-89CF-B21FE82D995D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F6FC15-0CAC-4EC5-89CF-B21FE82D995D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F6FC15-0CAC-4EC5-89CF-B21FE82D995D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1524674D-D12D-4F5E-98D4-6B5CF89D7A78}
+	EndGlobalSection
+EndGlobal
