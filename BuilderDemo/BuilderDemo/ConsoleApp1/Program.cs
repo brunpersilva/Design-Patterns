@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace Builder
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IFrameworkFullBuilder builder = new FrameworkFullBuilder();
+            Framework framework = builder.GetFramework();
+            framework.Run();
         }
+
     }
 }

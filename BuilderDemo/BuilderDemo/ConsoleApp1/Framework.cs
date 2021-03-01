@@ -11,18 +11,18 @@ namespace Builder
         private string _dbUSer;
         private string _dbPassword;
         private string _dbHost;
-        private string _tests;
-        private string _webPack;
-        private string _full;
+        private bool _tests;
+        private bool _webPack;
+        private bool _full;
 
         public Framework(string name,
                          string db,
                          string dbUSer,
                          string dbPassword,
                          string dbHost,
-                         string tests,
-                         string webPack,
-                         string full)
+                         bool tests,
+                         bool webPack,
+                         bool full)
         {
             _name = name;
             _db = db;
@@ -32,6 +32,10 @@ namespace Builder
             _tests = tests;
             _webPack = webPack;
             _full = full;
+        }
+        public void Run()
+        {
+            Console.WriteLine("Running");
         }
     }
 }
